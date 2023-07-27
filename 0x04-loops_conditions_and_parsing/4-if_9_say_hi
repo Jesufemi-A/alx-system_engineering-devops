@@ -1,0 +1,13 @@
+#!/bin/bash
+
+count=1
+while [ $count -le 10 ]; do
+	if [ $count -eq 9 ]; then
+		echo "Best School"
+		echo "Hi"
+		((count++))
+	else
+		echo "Best School"
+		((count++))
+fi
+done
