@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#displays Best School 10 times via until loop
 count=1
 until [ $count -gt 10 ]; do
 	echo "Best School"
