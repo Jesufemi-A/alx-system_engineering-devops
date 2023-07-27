@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#loops from 1 to 10, printing "bad luck", "good luck" and "Best School" for 4th, 8th, and other iteration respectively 
 count=1
 while [ $count -le 10 ]; do
 	if [ $count -eq 4 ]; then

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#loops from 1 to 20 and displays specific words and characters at 4th, 9th and 17th iteration respectively
 count=1
 while [ $count -le 20 ]; do
 	if [ $count -eq 4 ]; then
