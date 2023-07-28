@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #displays content of a directory in list format
 for file_name in *; do
-	if [[ "${file_name}" != .* ]]; then
-		actual_name="${file_name#*-}"
-		echo "- ${actual_name}"
+	if [ -f"$file_name" ]; then
+		actual_name=$(echo "$file_name" | cut -d '-' -f 2-)
+		echo "${actual_name}"
 	fi
 done
