@@ -1,0 +1,1 @@
+This project is all about writing blog post on certain devOps concepts
